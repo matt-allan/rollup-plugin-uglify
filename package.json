@@ -1,0 +1,38 @@
+{
+  "name": "rollup-plugin-uglify",
+  "version": "0.1.0",
+  "description": "A simple plugin for using UglifyJS with Rollup",
+  "main": "dist/rollup-plugin-uglify.cjs.js",
+  "module": "dist/rollup-plugin-uglify.es.js",
+  "repository": "yuloh/rollup-plugin-uglify",
+  "keywords": [
+    "rollup",
+    "rollup-plugin"
+  ],
+  "author": "Matt Allan",
+  "license": "MIT",
+  "bugs": "https://github.com/yuloh/rollup-plugin-uglify/issues",
+  "homepage": "https://github.com/yuloh/rollup-plugin-uglify",
+  "dependencies": {
+    "uglify-js": "^3.4.9"
+  },
+  "peerDependencies": {
+    "rollup": ">=0.66.0 <1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "mocha": "^5.2.0",
+    "rollup": "^0.66.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rm -fr ./dist/*",
+    "lint": "eslint src",
+    "test": "mocha",
+    "pretest": "npm run build",
+    "prepublish": "npm run lint && npm test"
+  },
+  "files": [
+    "dist"
+  ]
+}
