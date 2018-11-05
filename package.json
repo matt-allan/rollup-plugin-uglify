@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-uglify",
+  "name": "@yuloh/rollup-plugin-uglify",
   "version": "0.1.0",
   "description": "A simple plugin for using UglifyJS with Rollup",
   "main": "dist/rollup-plugin-uglify.cjs.js",
