@@ -13,7 +13,7 @@ npm install --save-dev @yuloh/rollup-plugin-uglify
 Any options are passed directly to uglify.  You can view the possible options in the [Uglify docs](https://github.com/mishoo/UglifyJS2#minify-options).  Unless explicitly disabled the `sourceMap` and `warnings` options are enabled so they can be passed to Rollup.
 
 ```javascript
-import uglify from 'rollup-plugin-uglify';
+import uglify from '@yuloh/rollup-plugin-uglify';
 
 export default {
   input: 'src/index.js',
