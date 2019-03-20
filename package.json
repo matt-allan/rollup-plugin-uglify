@@ -4,15 +4,15 @@
   "description": "A simple plugin for using UglifyJS with Rollup",
   "main": "dist/rollup-plugin-uglify.cjs.js",
   "module": "dist/rollup-plugin-uglify.es.js",
-  "repository": "yuloh/rollup-plugin-uglify",
+  "repository": "matt-allan/rollup-plugin-uglify",
   "keywords": [
     "rollup",
     "rollup-plugin"
   ],
   "author": "Matt Allan",
   "license": "MIT",
-  "bugs": "https://github.com/yuloh/rollup-plugin-uglify/issues",
-  "homepage": "https://github.com/yuloh/rollup-plugin-uglify",
+  "bugs": "https://github.com/matt-allan/rollup-plugin-uglify/issues",
+  "homepage": "https://github.com/matt-allan/rollup-plugin-uglify",
   "dependencies": {
     "uglify-js": "^3.4.9"
   },
